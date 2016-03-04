@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pauk-press.ru</string>
+    <string name="razdel">Разделы новостей:</string>
+    <string name="sto">Сто последних новостей:</string>
+</resources>

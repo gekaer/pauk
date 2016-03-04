@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:background="#ffffff" android:id="@+id/LR100">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="100 новостей"
+            android:id="@+id/textView100" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textColor="#010101"/>
+    <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar100"
+            android:progress="40"
+            android:indeterminate="false" android:max="100" android:layout_below="@+id/textView100"
+            android:layout_centerHorizontal="true"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:divider="#b5b5b5"
+            android:dividerHeight="1dp"
+            android:background="@drawable/list_border"
+            android:listSelector="@drawable/states_selector_list"
+            android:id="@+id/listView100"  />
+
+</RelativeLayout>

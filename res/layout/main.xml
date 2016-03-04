@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/Layor1" android:weightSum="1" android:background="#ffffff">
+    <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/webView" android:layout_gravity="center_horizontal" android:layout_weight="0.53"
+            android:background="#ffffff"
+            android:clickable="false"
+    />
+    <Button
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Загрузить разделы новостей с сайта паука"
+            android:id="@+id/button" android:layout_gravity="center_horizontal" android:layout_weight="0.07"
+            android:layout_marginTop="20dp" android:clickable="true" android:onClick="onClickButton1"
+            android:textColor="#010101" android:textSize="25dp"
+            android:background="#768eff" />
+    <Button android:layout_width="279dp" android:layout_height="wrap_content" android:text="Искать новости самому"
+            android:id="@+id/button2" android:layout_gravity="center_horizontal" android:layout_weight="0.08"
+            android:layout_marginTop="20dp" android:clickable="true" android:onClick="onClickButton2"
+            android:background="#768eff" android:textColor="#010101" android:textSize="25dp"/>
+    <Button android:layout_width="287dp" android:layout_height="wrap_content" android:text="Получить 100 последних новостей"
+            android:id="@+id/button3" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" android:clickable="true" android:onClick="onClickButton3"
+            android:background="#768eff" android:textColor="#010101" android:textSize="25dp"
+            android:layout_weight="0.06"/>
+</LinearLayout>
+
